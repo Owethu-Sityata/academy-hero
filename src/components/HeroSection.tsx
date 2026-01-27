@@ -69,9 +69,29 @@ const HeroSection = () => {
 
         {/* Welcome Text - positioned on white background */}
         <div className="absolute bottom-8 md:bottom-16 lg:bottom-24 left-8 md:left-12 lg:left-16 max-w-md lg:max-w-lg z-30">
-          <p className="text-foreground text-base md:text-lg leading-relaxed">
+          <p className="text-foreground text-base md:text-lg leading-relaxed mb-6">
             Welcome to Life Choices Academy, we are committed to empowering the youth with the skills, knowledge, and opportunities they need to thrive in the digital era
           </p>
+          <div className="flex flex-wrap gap-3">
+            <a
+              href="#internship"
+              className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary/90 transition-colors"
+            >
+              Partner With Us
+            </a>
+            <a
+              href="#internship"
+              className="inline-flex items-center justify-center px-6 py-3 bg-secondary text-secondary-foreground font-medium rounded-md hover:bg-secondary/90 transition-colors"
+            >
+              Hire an Intern
+            </a>
+            <a
+              href="#introduction"
+              className="inline-flex items-center justify-center px-6 py-3 border border-foreground text-foreground font-medium rounded-md hover:bg-foreground/5 transition-colors"
+            >
+              Learn More
+            </a>
+          </div>
         </div>
       </div>
 
