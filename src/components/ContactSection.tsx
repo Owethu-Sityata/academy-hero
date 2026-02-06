@@ -9,7 +9,7 @@ const ContactSection = () => {
             Partner With Us
           </h2>
           <p className="text-xl opacity-90 mb-12 max-w-2xl mx-auto">
-            Join us in empowering the next generation of tech talent in South Africa
+            Join us in empowering the next generation of talent across tech, Salesforce, and renewable energy
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -20,7 +20,8 @@ const ContactSection = () => {
                 </svg>
               </div>
               <h3 className="font-bold mb-2">Email Us</h3>
-              <p className="text-sm opacity-80">info@lifechoices.co.za</p>
+              <p className="text-sm opacity-80">Melanie@lifechoices.co.za</p>
+              <p className="text-sm opacity-80">Vuyo@lifechoices.co.za</p>
             </div>
             
             <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-6 border border-primary-foreground/20">
@@ -30,7 +31,7 @@ const ContactSection = () => {
                 </svg>
               </div>
               <h3 className="font-bold mb-2">Call Us</h3>
-              <p className="text-sm opacity-80">+27 21 461 1256</p>
+              <p className="text-sm opacity-80">021 696 4157</p>
             </div>
             
             <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-6 border border-primary-foreground/20">
@@ -42,6 +43,20 @@ const ContactSection = () => {
               </div>
               <h3 className="font-bold mb-2">Visit Us</h3>
               <p className="text-sm opacity-80">Cape Town, South Africa</p>
+            </div>
+          </div>
+
+          <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-6 border border-primary-foreground/20 mb-12 text-left max-w-xl mx-auto">
+            <h3 className="font-bold mb-3 text-center">Key Contacts</h3>
+            <div className="space-y-3 text-sm">
+              <div>
+                <p className="font-medium">Melanie Stevens</p>
+                <p className="opacity-80">Partnerships and Placements Lead</p>
+              </div>
+              <div>
+                <p className="font-medium">Vuyo Ntlangu</p>
+                <p className="opacity-80">Business Development Manager</p>
+              </div>
             </div>
           </div>
           
@@ -57,14 +72,7 @@ const ContactSection = () => {
               variant="outline" 
               className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10"
             >
-              Hire an Intern
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10"
-            >
-              Learn More
+              Host an Intern
             </Button>
           </div>
           
