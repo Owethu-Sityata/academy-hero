@@ -1,4 +1,5 @@
 import heroStudents from "@/assets/hero-students.jpg";
+import lifechoicesLogo from "@/assets/lifechoices-logo-hero.png";
 
 const HeroSection = () => {
   return (
@@ -32,22 +33,11 @@ const HeroSection = () => {
 
           {/* Logo Container */}
           <div className="relative z-20 pt-24 md:pt-32 lg:pt-40 pl-8 md:pl-12 lg:pl-16">
-            <div className="flex flex-col items-start">
-              {/* "life" in script font */}
-              <div className="flex items-baseline -mb-4 md:-mb-6">
-                <span className="font-script text-5xl md:text-6xl lg:text-7xl text-secondary italic">
-                  life
-                </span>
-                {/* "choices" in sans-serif */}
-                <span className="font-sans text-4xl md:text-5xl lg:text-6xl text-primary-foreground font-normal ml-1 tracking-wide">
-                  choices
-                </span>
-              </div>
-              {/* "ACADEMY" - largest, bold */}
-              <span className="font-sans text-5xl md:text-7xl lg:text-8xl text-primary-foreground font-black uppercase tracking-tight -mt-2">
-                ACADEMY
-              </span>
-            </div>
+          <img
+              src={lifechoicesLogo}
+              alt="Life Choices Academy Logo"
+              className="w-64 md:w-80 lg:w-96 h-auto"
+            />
           </div>
         </div>
 
