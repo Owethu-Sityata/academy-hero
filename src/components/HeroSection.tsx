@@ -105,22 +105,28 @@ const HeroSection = () => {
             INTRODUCTION
           </a>
           <a
-            href="#coding-program"
+            href="#coding-academy"
             className="text-accent-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity"
           >
-            <span className="font-bold">OUR</span> CODING PROGRAM
+            <span className="font-bold">CODING</span> ACADEMY
           </a>
           <a
-            href="#academy-studio"
+            href="#youthforce"
             className="text-accent-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity"
           >
-            <span className="font-bold">LIFE</span> CHOICES ACADEMY & STUDIO
+            <span className="font-bold">YOUTHFORCE</span> PROJECT
+          </a>
+          <a
+            href="#solaryouth"
+            className="text-accent-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity"
+          >
+            <span className="font-bold">SOLAR</span>YOUTH PROJECT
           </a>
           <a
             href="#internship"
             className="text-accent-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity"
           >
-            INTERNSHIP PARTNERSHIP PROGRAM
+            PARTNERSHIP PROGRAM
           </a>
         </div>
       </nav>

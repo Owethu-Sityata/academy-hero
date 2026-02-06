@@ -3,6 +3,8 @@ import ChallengeSection from "@/components/ChallengeSection";
 import SolutionSection from "@/components/SolutionSection";
 import StudentJourneySection from "@/components/StudentJourneySection";
 import CodingProgramSection from "@/components/CodingProgramSection";
+import YouthForceSection from "@/components/YouthForceSection";
+import SolarYouthSection from "@/components/SolarYouthSection";
 import BeneficiariesSection from "@/components/BeneficiariesSection";
 import WrapAroundSection from "@/components/WrapAroundSection";
 import ImpactSourcingSection from "@/components/ImpactSourcingSection";
@@ -17,6 +19,8 @@ const Index = () => {
       <SolutionSection />
       <StudentJourneySection />
       <CodingProgramSection />
+      <YouthForceSection />
+      <SolarYouthSection />
       <BeneficiariesSection />
       <WrapAroundSection />
       <ImpactSourcingSection />
