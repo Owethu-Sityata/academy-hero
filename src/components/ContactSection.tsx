@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import lifechoicesLogo from "@/assets/lifechoices-logo.png";
 
 const ContactSection = () => {
   return (
@@ -86,11 +87,7 @@ const ContactSection = () => {
       <div className="border-t border-primary-foreground/20 mt-16 pt-8">
         <div className="container mx-auto px-6 md:px-12 lg:px-16">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="flex items-baseline">
-              <span className="font-script text-2xl text-secondary italic">life</span>
-              <span className="font-sans text-xl text-primary-foreground font-normal ml-1">choices</span>
-              <span className="font-sans text-xl text-primary-foreground font-bold uppercase ml-1">academy</span>
-            </div>
+            <img src={lifechoicesLogo} alt="Life Choices Academy" className="h-10" />
             <p className="text-sm opacity-70">
               © {new Date().getFullYear()} Life Choices Academy. All rights reserved.
             </p>
