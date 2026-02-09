@@ -71,7 +71,7 @@ const ContactSection = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10"
+              className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-secondary hover:border-secondary transition-colors"
             >
               Host an Intern
             </Button>
