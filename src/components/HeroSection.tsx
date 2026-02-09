@@ -1,122 +1,104 @@
 import heroStudents from "@/assets/hero-students.jpg";
 import lifechoicesLogo from "@/assets/lifechoices-logo-hero.png";
+import { ChevronRight } from "lucide-react";
 
 const HeroSection = () => {
   return (
     <section className="w-full min-h-screen flex flex-col">
-      {/* Top Banner */}
-      <div className="w-full bg-primary py-4 px-6">
-        <p className="text-primary-foreground text-sm md:text-base font-medium tracking-[0.2em] uppercase">
-          UNLOCKING THE FUTURE: EMPOWERING YOUNG TALENT FOR THE DIGITAL AGE
-        </p>
-      </div>
+      {/* Main Hero Content - Full background image with overlays */}
+      <div className="relative flex-1 min-h-[500px] lg:min-h-[600px]">
+        {/* Background Image */}
+        <img
+          src={heroStudents}
+          alt="Two young people collaborating on a laptop"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+        />
 
-      {/* Main Hero Content */}
-      <div className="flex-1 flex flex-col lg:flex-row relative overflow-hidden">
-        {/* Left Side - White background with blue diagonal */}
-        <div className="relative w-full lg:w-[60%] min-h-[400px] lg:min-h-[600px] bg-background">
-          {/* Blue Diagonal Shape */}
-          <div 
-            className="absolute inset-0 bg-primary"
-            style={{
-              clipPath: "polygon(0 12%, 85% 12%, 100% 100%, 0 100%)",
-            }}
-          />
-          
-          {/* Green Accent Line */}
-          <div 
-            className="absolute inset-0 bg-secondary z-10"
-            style={{
-              clipPath: "polygon(85% 12%, 87% 12%, 102% 100%, 100% 100%)",
-            }}
-          />
+        {/* Top-right blue triangle */}
+        <div
+          className="absolute top-0 right-0 w-32 h-32 bg-primary z-10"
+          style={{ clipPath: "polygon(100% 0, 0 0, 100% 100%)" }}
+        />
 
-          {/* Logo Container */}
-          <div className="relative z-20 pt-24 md:pt-32 lg:pt-40 pl-8 md:pl-12 lg:pl-16">
-          <img
-              src={lifechoicesLogo}
-              alt="Life Choices Academy Logo"
-              className="w-64 md:w-80 lg:w-96 h-auto"
-            />
+        {/* Top-left banner */}
+        <div className="absolute top-8 left-0 z-20">
+          <div className="bg-primary/80 px-6 py-4 md:px-10 md:py-5 max-w-md md:max-w-lg">
+            <p className="text-primary-foreground text-xs md:text-sm font-bold tracking-[0.15em] uppercase leading-relaxed">
+              <span className="underline underline-offset-4 decoration-2">UNLOCKING THE FUTURE:</span>{" "}
+              EMPOWERING YOUNG TALENT FOR THE DIGITAL AGE
+            </p>
           </div>
         </div>
 
-        {/* Right Side - Image */}
-        <div className="relative w-full lg:w-[40%] min-h-[300px] lg:min-h-[600px]">
-          {/* Green accent continuation on image side */}
-          <div 
-            className="absolute left-0 top-0 bottom-0 w-4 bg-secondary z-10 hidden lg:block"
-            style={{
-              clipPath: "polygon(0 0, 100% 0, 0 100%)",
-            }}
-          />
+        {/* Blue diagonal shape */}
+        <div
+          className="absolute inset-0 bg-primary z-10"
+          style={{
+            clipPath: "polygon(0 18%, 50% 18%, 55% 100%, 0 100%)",
+          }}
+        />
+
+        {/* Green accent line */}
+        <div
+          className="absolute inset-0 bg-secondary z-10"
+          style={{
+            clipPath: "polygon(50% 18%, 52% 18%, 57% 100%, 55% 100%)",
+          }}
+        />
+
+        {/* Logo on blue shape */}
+        <div className="relative z-20 pt-32 md:pt-40 lg:pt-44 pl-6 md:pl-12 lg:pl-16">
           <img
-            src={heroStudents}
-            alt="Two young people collaborating on a laptop"
-            className="w-full h-full object-cover object-center"
+            src={lifechoicesLogo}
+            alt="Life Choices Academy Logo"
+            className="w-56 md:w-72 lg:w-96 h-auto"
           />
         </div>
 
-        {/* Welcome Text - positioned on white background */}
-        <div className="absolute bottom-8 md:bottom-16 lg:bottom-24 left-8 md:left-12 lg:left-16 max-w-md lg:max-w-lg z-30">
-          <p className="text-primary-foreground text-base md:text-lg leading-relaxed mb-6">
+        {/* Welcome text - positioned on white area below blue shape */}
+        <div className="absolute bottom-12 md:bottom-16 lg:bottom-20 left-6 md:left-12 lg:left-16 max-w-xs md:max-w-sm z-20">
+          <p className="text-foreground text-sm md:text-base leading-relaxed">
             Welcome to Life Choices Academy, we are committed to empowering the youth with the skills, knowledge, and opportunities they need to thrive in the digital era
           </p>
-          <div className="flex flex-wrap gap-3">
-            <a
-              href="#internship"
-              className="inline-flex items-center justify-center px-6 py-3 border border-primary-foreground text-primary-foreground font-bold rounded-md hover:bg-secondary hover:border-secondary transition-colors"
-            >
-              Partner With Us
-            </a>
-            <a
-              href="#internship"
-              className="inline-flex items-center justify-center px-6 py-3 bg-secondary text-secondary-foreground font-bold rounded-md hover:bg-secondary/90 transition-colors"
-            >
-              Hire an Intern
-            </a>
-            <a
-              href="#introduction"
-              className="inline-flex items-center justify-center px-6 py-3 border border-primary-foreground text-primary-foreground font-medium rounded-md hover:bg-secondary hover:border-secondary transition-colors"
-            >
-              Learn More
-            </a>
-          </div>
+        </div>
+
+        {/* Right arrow button */}
+        <div className="absolute right-6 md:right-10 top-1/2 -translate-y-1/2 z-20">
+          <a
+            href="#introduction"
+            className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-foreground/60 flex items-center justify-center hover:bg-foreground/80 transition-colors"
+          >
+            <ChevronRight className="w-6 h-6 text-background" />
+          </a>
         </div>
       </div>
 
       {/* Bottom Navigation Bar */}
-      <nav className="w-full bg-accent py-4">
-        <div className="flex flex-wrap justify-center gap-4 md:gap-8 lg:gap-16 px-4">
+      <nav className="w-full bg-primary py-3 md:py-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-0">
           <a
             href="#introduction"
-            className="text-accent-foreground text-xs md:text-sm font-bold uppercase tracking-wider hover:opacity-80 transition-opacity"
+            className="text-primary-foreground text-xs md:text-sm font-bold uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-2 border-r border-primary-foreground/30"
           >
             INTRODUCTION
           </a>
           <a
             href="#coding-academy"
-            className="text-accent-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity"
+            className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-2 border-r border-primary-foreground/30"
           >
-            <span className="font-bold">CODING</span> ACADEMY
+            <span className="font-bold">OUR</span> CODING PROGRAM
           </a>
           <a
             href="#youthforce"
-            className="text-accent-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity"
+            className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-2 border-r border-primary-foreground/30"
           >
-            <span className="font-bold">YOUTHFORCE</span> PROJECT
-          </a>
-          <a
-            href="#solaryouth"
-            className="text-accent-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity"
-          >
-            <span className="font-bold">SOLAR</span>YOUTH PROJECT
+            <span className="font-bold">LIFE</span> CHOICES ACADEMY & STUDIO
           </a>
           <a
             href="#internship"
-            className="text-accent-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity"
+            className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-2"
           >
-            PARTNERSHIP PROGRAM
+            INTERNSHIP PARTNERSHIP PROGRAM
           </a>
         </div>
       </nav>
