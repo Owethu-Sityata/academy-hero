@@ -37,7 +37,14 @@ const YouthForceSection = () => {
         <div className="max-w-6xl mx-auto">
           {/* Hero block with image */}
           <div className="grid md:grid-cols-2 gap-8 items-center mb-14">
-            <div>
+            <div className="rounded-lg overflow-hidden shadow-md md:order-1">
+              <img
+                src={youthforceHero}
+                alt="YouthForce young professionals collaborating in a meeting"
+                className="w-full h-64 md:h-80 object-cover"
+              />
+            </div>
+            <div className="md:order-2">
               <h2 className="text-3xl md:text-4xl font-bold text-primary mb-3">
                 YouthForce Project
               </h2>
@@ -55,13 +62,6 @@ const YouthForceSection = () => {
                 Program and LC Studio Work-Integrated Learning model, we develop
                 certified, project-ready Salesforce professionals.
               </p>
-            </div>
-            <div className="rounded-lg overflow-hidden shadow-md">
-              <img
-                src={youthforceHero}
-                alt="YouthForce young professionals collaborating in a meeting"
-                className="w-full h-64 md:h-80 object-cover"
-              />
             </div>
           </div>
 
