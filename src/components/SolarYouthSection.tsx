@@ -1,3 +1,5 @@
+import solarYouthHero from "@/assets/solaryouth-hero.webp";
+
 const SolarYouthSection = () => {
   return (
     <section id="solaryouth" className="py-16 md:py-24 bg-background">
@@ -12,6 +14,14 @@ const SolarYouthSection = () => {
           <p className="text-foreground text-center mb-12 max-w-3xl mx-auto">
             Life Choices Academy and GREEN Solar Academy, bringing together over 20 years of experience in solar and youth education, are empowering young South Africans with technical, professional, and personal development so they can thrive in the fast-growing solar energy sector.
           </p>
+
+          <div className="rounded-xl overflow-hidden mb-12">
+            <img
+              src={solarYouthHero}
+              alt="Solar Youth students installing solar panels on a rooftop"
+              className="w-full h-64 md:h-96 object-cover"
+            />
+          </div>
 
           {/* Why */}
           <div className="bg-secondary text-secondary-foreground rounded-lg p-6 md:p-8 mb-12">
