@@ -65,7 +65,7 @@ const HeroSection = () => {
           <div className="flex flex-wrap gap-3">
             <a
               href="#internship"
-              className="inline-flex items-center justify-center px-6 py-3 text-primary-foreground font-bold rounded-md hover:underline transition-colors"
+              className="inline-flex items-center justify-center px-6 py-3 border border-primary-foreground text-primary-foreground font-bold rounded-md hover:bg-secondary hover:border-secondary transition-colors"
             >
               Partner With Us
             </a>
@@ -77,7 +77,7 @@ const HeroSection = () => {
             </a>
             <a
               href="#introduction"
-              className="inline-flex items-center justify-center px-6 py-3 border border-primary-foreground text-primary-foreground font-medium rounded-md hover:bg-primary-foreground/10 transition-colors"
+              className="inline-flex items-center justify-center px-6 py-3 border border-primary-foreground text-primary-foreground font-medium rounded-md hover:bg-secondary hover:border-secondary transition-colors"
             >
               Learn More
             </a>
