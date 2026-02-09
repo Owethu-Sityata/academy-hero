@@ -5,30 +5,31 @@ const SolarYouthSection = () => {
     <section id="solaryouth" className="py-16 md:py-24 bg-background">
       <div className="container mx-auto px-6 md:px-12 lg:px-16">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4 text-center">
-            Solar Youth Project
-          </h2>
-          <p className="text-muted-foreground text-center mb-4 max-w-3xl mx-auto">
-            Empower Youth, Power the Nation
-          </p>
-          <p className="text-foreground text-center mb-12 max-w-3xl mx-auto">
-            Life Choices Academy and GREEN Solar Academy, bringing together over 20 years of experience in solar and youth education, are empowering young South Africans with technical, professional, and personal development so they can thrive in the fast-growing solar energy sector.
-          </p>
-
-          <div className="rounded-xl overflow-hidden mb-12">
-            <img
-              src={solarYouthHero}
-              alt="Solar Youth students installing solar panels on a rooftop"
-              className="w-full h-64 md:h-96 object-cover"
-            />
-          </div>
-
-          {/* Why */}
-          <div className="bg-secondary text-secondary-foreground rounded-lg p-6 md:p-8 mb-12">
-            <h3 className="font-bold text-xl mb-3">Why a Youth Program?</h3>
-            <p className="opacity-90 text-sm">
-              The growing solar sector needs more people with specialised technical skills, including solar panel installation, maintenance, and repair, as well as expertise in solar inverters, battery storage systems, and related technologies. Life Choices Academy's Solar Youth Project bridges this skills gap by providing the market with access to young technically-proficient ready-for-work individuals.
-            </p>
+          <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center mb-12">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+                Solar Youth Project
+              </h2>
+              <p className="text-muted-foreground mb-4">
+                Empower Youth, Power the Nation
+              </p>
+              <p className="text-foreground mb-6">
+                Life Choices Academy and GREEN Solar Academy, bringing together over 20 years of experience in solar and youth education, are empowering young South Africans with technical, professional, and personal development so they can thrive in the fast-growing solar energy sector.
+              </p>
+              <div className="bg-secondary text-secondary-foreground rounded-lg p-6">
+                <h3 className="font-bold text-lg mb-2">Why a Youth Program?</h3>
+                <p className="opacity-90 text-sm">
+                  The growing solar sector needs more people with specialised technical skills, including solar panel installation, maintenance, and repair, as well as expertise in solar inverters, battery storage systems, and related technologies. Life Choices Academy's Solar Youth Project bridges this skills gap by providing the market with access to young technically-proficient ready-for-work individuals.
+                </p>
+              </div>
+            </div>
+            <div className="rounded-xl overflow-hidden">
+              <img
+                src={solarYouthHero}
+                alt="Solar Youth students installing solar panels on a rooftop"
+                className="w-full h-full object-cover rounded-xl"
+              />
+            </div>
           </div>
 
           {/* Two-Phase Program */}
