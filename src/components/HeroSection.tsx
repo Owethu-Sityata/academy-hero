@@ -34,7 +34,7 @@ const HeroSection = () => {
         <div
           className="absolute inset-0 bg-background z-10"
           style={{
-            clipPath: "polygon(0 55%, 55% 55%, 55% 100%, 0 100%)",
+            clipPath: "polygon(0 18%, 50% 18%, 57% 100%, 0 100%)",
           }}
         />
 
