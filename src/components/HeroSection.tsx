@@ -86,7 +86,7 @@ const HeroSection = () => {
           </a>
           <a
             href="#coding-academy"
-            className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-2 border-r border-primary-foreground/30"
+            className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-2 border-r border-primary-foreground/30 bg-primary/70"
           >
             <span className="font-bold">OUR</span> CODING PROGRAM
           </a>
@@ -98,7 +98,7 @@ const HeroSection = () => {
           </a>
           <a
             href="#internship"
-            className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-2"
+            className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-2 bg-primary/70"
           >
             INTERNSHIP PARTNERSHIP PROGRAM
           </a>
