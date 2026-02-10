@@ -84,12 +84,14 @@ const ContactSection = () => {
       </div>
       
       {/* Footer */}
-      <div className="border-t border-primary-foreground/20 mt-10 pt-6">
-        <div className="container mx-auto px-6 md:px-12 lg:px-16 flex flex-col sm:flex-row justify-between items-center gap-3">
-          <img src={lifechoicesLogo} alt="Life Choices Academy" className="h-8" />
-          <p className="text-xs opacity-70">
-            © {new Date().getFullYear()} Life Choices Academy. All rights reserved.
-          </p>
+      <div className="border-t border-primary-foreground/20 mt-16 pt-8">
+        <div className="container mx-auto px-6 md:px-12 lg:px-16">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <img src={lifechoicesLogo} alt="Life Choices Academy" className="h-10" />
+            <p className="text-sm opacity-70">
+              © {new Date().getFullYear()} Life Choices Academy. All rights reserved.
+            </p>
+          </div>
         </div>
       </div>
     </section>
