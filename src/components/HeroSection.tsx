@@ -20,17 +20,9 @@ const HeroSection = () => {
           style={{ clipPath: "polygon(100% 0, 0 0, 100% 100%)" }}
         />
 
-        {/* White top area - covers top-left where banner sits */}
-        <div
-          className="absolute inset-0 bg-background z-[5]"
-          style={{
-            clipPath: "polygon(0 0, 60% 0, 60% 18%, 0 18%)",
-          }}
-        />
-
-        {/* Top-left banner on white background */}
-        <div className="absolute top-6 left-6 md:left-8 z-20">
-          <div className="bg-primary px-6 py-3 md:px-8 md:py-4 max-w-md md:max-w-lg">
+        {/* Top-left banner */}
+        <div className="absolute top-8 left-0 z-20">
+          <div className="bg-primary/80 px-6 py-4 md:px-10 md:py-5 max-w-md md:max-w-lg">
             <p className="text-primary-foreground text-xs md:text-sm font-bold tracking-[0.15em] uppercase leading-relaxed">
               <span className="underline underline-offset-4 decoration-2">UNLOCKING THE FUTURE:</span>{" "}
               EMPOWERING YOUNG TALENT FOR THE DIGITAL AGE
@@ -38,25 +30,24 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* White area below - from logo bottom to section bottom, left side */}
+        {/* White area above the trapezoid logo */}
         <div
-          className="absolute inset-0 bg-background z-[5]"
+          className="absolute inset-0 bg-background z-10"
           style={{
-            clipPath: "polygon(0 62%, 52% 62%, 52% 100%, 0 100%)",
+            clipPath: "polygon(0 55%, 55% 55%, 55% 100%, 0 100%)",
           }}
         />
 
-        {/* Green accent line - more skewed, logo bottom edge meets it */}
+        {/* Green accent line */}
         <div
-          className="absolute inset-0 z-10"
+          className="absolute inset-0 bg-secondary z-10"
           style={{
-            background: "hsl(var(--secondary))",
-            clipPath: "polygon(47% 18%, 49.5% 18%, 54% 62%, 52% 62%)",
+            clipPath: "polygon(50% 18%, 52% 18%, 57% 100%, 55% 100%)",
           }}
         />
 
-        {/* Trapezoid logo - above the welcome text, bottom edge meets the green line */}
-        <div className="absolute top-[18%] left-0 z-20 w-[52%] max-w-[580px]">
+        {/* Trapezoid logo - positioned so sharp point overlaps the green line */}
+        <div className="absolute bottom-[10%] left-0 z-20 w-[55%] max-w-[600px]">
           <img
             src={trapezoidLogo}
             alt="Life Choices Academy Logo"
@@ -64,8 +55,8 @@ const HeroSection = () => {
           />
         </div>
 
-        {/* Welcome text - below the logo on white area */}
-        <div className="absolute bottom-6 md:bottom-10 lg:bottom-14 left-6 md:left-10 lg:left-14 max-w-xs md:max-w-sm z-20">
+        {/* Welcome text - positioned on white area below the logo */}
+        <div className="absolute bottom-4 md:bottom-6 left-6 md:left-12 lg:left-16 max-w-xs md:max-w-sm z-20">
           <p className="text-foreground text-xs md:text-sm leading-relaxed">
             Welcome to Life Choices Academy, we are committed to empowering the youth with the skills, knowledge, and opportunities they need to thrive in the digital era
           </p>
