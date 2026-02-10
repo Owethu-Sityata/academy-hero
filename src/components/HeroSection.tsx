@@ -95,13 +95,13 @@ const HeroSection = () => {
             href="#youthforce"
             className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-3 md:py-4 border-r border-primary-foreground/30"
           >
-            <span className="font-bold">LIFE</span> CHOICES ACADEMY & STUDIO
+            <span className="font-bold">YOUTHFORCE</span> PROJECT
           </a>
           <a
-            href="#internship"
+            href="#solaryouth"
             className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-3 md:py-4 bg-[hsl(222,40%,65%)]"
           >
-            INTERNSHIP PARTNERSHIP PROGRAM
+            SOLAR YOUTH PROJECT
           </a>
         </div>
       </nav>
