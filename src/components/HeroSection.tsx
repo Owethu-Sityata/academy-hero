@@ -20,7 +20,23 @@ const HeroSection = () => {
           style={{ clipPath: "polygon(100% 0, 0 0, 100% 100%)" }}
         />
 
-        {/* Top-left banner */}
+        {/* White area - extends from top to bottom on left side */}
+        <div
+          className="absolute inset-0 bg-background z-10"
+          style={{
+            clipPath: "polygon(0 0, 50% 0, 57% 100%, 0 100%)",
+          }}
+        />
+
+        {/* Green accent line */}
+        <div
+          className="absolute inset-0 bg-secondary z-10"
+          style={{
+            clipPath: "polygon(50% 0, 52% 0, 57% 100%, 55% 100%)",
+          }}
+        />
+
+        {/* Top-left banner - above white area */}
         <div className="absolute top-8 left-0 z-20">
           <div className="bg-primary/80 px-6 py-4 md:px-10 md:py-5 max-w-md md:max-w-lg">
             <p className="text-primary-foreground text-xs md:text-sm font-bold tracking-[0.15em] uppercase leading-relaxed">
@@ -29,22 +45,6 @@ const HeroSection = () => {
             </p>
           </div>
         </div>
-
-        {/* White area above the trapezoid logo */}
-        <div
-          className="absolute inset-0 bg-background z-10"
-          style={{
-            clipPath: "polygon(0 18%, 50% 18%, 57% 100%, 0 100%)",
-          }}
-        />
-
-        {/* Green accent line */}
-        <div
-          className="absolute inset-0 bg-secondary z-10"
-          style={{
-            clipPath: "polygon(50% 18%, 52% 18%, 57% 100%, 55% 100%)",
-          }}
-        />
 
         {/* Trapezoid logo - positioned so sharp point overlaps the green line */}
         <div className="absolute bottom-[18%] left-0 z-20 w-[55%] max-w-[600px]">
