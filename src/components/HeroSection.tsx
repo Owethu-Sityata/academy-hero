@@ -1,5 +1,5 @@
 import heroStudents from "@/assets/hero-students.jpg";
-import lifechoicesLogo from "@/assets/lifechoices-logo-hero.png";
+import trapezoidLogo from "@/assets/trapezoid-blue.png";
 import { ChevronRight } from "lucide-react";
 
 const HeroSection = () => {
@@ -30,11 +30,11 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Blue diagonal shape */}
+        {/* White area above the trapezoid logo */}
         <div
-          className="absolute inset-0 bg-primary z-10"
+          className="absolute inset-0 bg-background z-10"
           style={{
-            clipPath: "polygon(0 18%, 50% 18%, 55% 100%, 0 100%)",
+            clipPath: "polygon(0 55%, 55% 55%, 55% 100%, 0 100%)",
           }}
         />
 
@@ -46,18 +46,18 @@ const HeroSection = () => {
           }}
         />
 
-        {/* Logo on blue shape */}
-        <div className="relative z-20 pt-32 md:pt-40 lg:pt-44 pl-6 md:pl-12 lg:pl-16">
+        {/* Trapezoid logo - positioned so sharp point overlaps the green line */}
+        <div className="absolute bottom-[10%] left-0 z-20 w-[55%] max-w-[600px]">
           <img
-            src={lifechoicesLogo}
+            src={trapezoidLogo}
             alt="Life Choices Academy Logo"
-            className="w-56 md:w-72 lg:w-96 h-auto"
+            className="w-full h-auto"
           />
         </div>
 
-        {/* Welcome text - positioned on white area below blue shape */}
-        <div className="absolute bottom-12 md:bottom-16 lg:bottom-20 left-6 md:left-12 lg:left-16 max-w-xs md:max-w-sm z-20">
-          <p className="text-foreground text-sm md:text-base leading-relaxed">
+        {/* Welcome text - positioned on white area below the logo */}
+        <div className="absolute bottom-4 md:bottom-6 left-6 md:left-12 lg:left-16 max-w-xs md:max-w-sm z-20">
+          <p className="text-foreground text-xs md:text-sm leading-relaxed">
             Welcome to Life Choices Academy, we are committed to empowering the youth with the skills, knowledge, and opportunities they need to thrive in the digital era
           </p>
         </div>
