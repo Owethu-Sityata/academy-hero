@@ -49,7 +49,7 @@ const HeroSection = () => {
         </div>
 
         {/* Trapezoid logo - positioned so sharp point overlaps the green line */}
-        <div className="absolute bottom-[10%] left-0 z-20 w-[65%] max-w-[720px]">
+        <div className="absolute bottom-[16%] left-0 z-20 w-[65%] max-w-[720px]">
           <img
             src={trapezoidLogo}
             alt="Life Choices Academy Logo"
