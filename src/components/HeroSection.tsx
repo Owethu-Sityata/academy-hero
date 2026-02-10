@@ -48,26 +48,21 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* Container to control both logo and text position */}
-<div className="absolute bottom-[35%] left-0 w-full max-w-[720px] z-20 mx-auto">
+        {/* Trapezoid logo - positioned so sharp point overlaps the green line */}
+        <div className="absolute bottom-[16%] left-0 z-20 w-[65%] max-w-[720px]">
+          <img
+            src={trapezoidLogo}
+            alt="Life Choices Academy Logo"
+            className="w-full h-auto"
+          />
+        </div>
 
-  {/* Trapezoid logo */}
-  <div className="w-[65%] mx-auto">
-    <img
-      src={trapezoidLogo}
-      alt="Life Choices Academy Logo"
-      className="w-full h-auto"
-    />
-  </div>
-
-  {/* Welcome text - always below the logo */}
-  <div className="mt-4 md:mt-6 px-6 md:px-12 lg:px-16 max-w-xs md:max-w-sm mx-auto text-center">
-    <p className="text-foreground text-xs md:text-sm leading-relaxed">
-      Welcome to Life Choices Academy, we are committed to empowering the youth with the skills, knowledge, and opportunities they need to thrive in the digital era
-    </p>
-  </div>
-</div>
-
+        {/* Welcome text - positioned on white area below the logo */}
+        <div className="absolute bottom-4 md:bottom-6 left-6 md:left-12 lg:left-16 max-w-xs md:max-w-sm z-20">
+          <p className="text-foreground text-xs md:text-sm leading-relaxed">
+            Welcome to Life Choices Academy, we are committed to empowering the youth with the skills, knowledge, and opportunities they need to thrive in the digital era
+          </p>
+        </div>
 
         {/* Right arrow button */}
         <div className="absolute right-6 md:right-10 top-1/2 -translate-y-1/2 z-20">
