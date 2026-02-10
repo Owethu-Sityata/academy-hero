@@ -24,7 +24,7 @@ const HeroSection = () => {
         <div
           className="absolute inset-0 bg-background z-10"
           style={{
-            clipPath: "polygon(0 0, 50% 0, 57% 100%, 0 100%)",
+            clipPath: "polygon(0 0, 58% 0, 57% 100%, 0 100%)",
           }}
         />
 
@@ -32,7 +32,7 @@ const HeroSection = () => {
         <div
           className="absolute inset-0 bg-secondary z-10"
           style={{
-            clipPath: "polygon(50% 0, 52% 0, 57% 100%, 55% 100%)",
+            clipPath: "polygon(58% 0, 60% 0, 57% 100%, 55% 100%)",
           }}
         />
 
