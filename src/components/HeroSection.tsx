@@ -89,7 +89,7 @@ const HeroSection = () => {
             href="#coding-academy"
             className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-3 md:py-4 border-r border-primary-foreground/30 bg-[hsl(222,40%,65%)]"
           >
-            <span className="font-bold">OUR</span> CODING PROGRAM
+            <span className="font-bold">OUR YOUTH</span>CODE PROGRAM
           </a>
           <a
             href="#youthforce"
