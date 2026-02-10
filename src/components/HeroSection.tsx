@@ -48,7 +48,9 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="relative w-full max-w-[720px] mx-auto z-20">
+        {/* Container to control both logo and text position */}
+<div className="absolute bottom-[35%] left-0 w-full max-w-[720px] z-20 mx-auto">
+
   {/* Trapezoid logo */}
   <div className="w-[65%] mx-auto">
     <img
@@ -58,7 +60,7 @@ const HeroSection = () => {
     />
   </div>
 
-  {/* Welcome text - automatically below the logo */}
+  {/* Welcome text - always below the logo */}
   <div className="mt-4 md:mt-6 px-6 md:px-12 lg:px-16 max-w-xs md:max-w-sm mx-auto text-center">
     <p className="text-foreground text-xs md:text-sm leading-relaxed">
       Welcome to Life Choices Academy, we are committed to empowering the youth with the skills, knowledge, and opportunities they need to thrive in the digital era
