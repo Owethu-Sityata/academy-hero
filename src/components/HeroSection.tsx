@@ -76,29 +76,29 @@ const HeroSection = () => {
       </div>
 
       {/* Bottom Navigation Bar */}
-      <nav className="w-full bg-primary py-3 md:py-4">
+      <nav className="w-full bg-primary">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-0">
           <a
             href="#introduction"
-            className="text-primary-foreground text-xs md:text-sm font-bold uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-2 border-r border-primary-foreground/30"
+            className="text-primary-foreground text-xs md:text-sm font-bold uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-3 md:py-4 border-r border-primary-foreground/30"
           >
             INTRODUCTION
           </a>
           <a
             href="#coding-academy"
-            className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-2 border-r border-primary-foreground/30 bg-[hsl(222,40%,65%)]"
+            className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-3 md:py-4 border-r border-primary-foreground/30 bg-[hsl(222,40%,65%)]"
           >
             <span className="font-bold">OUR</span> CODING PROGRAM
           </a>
           <a
             href="#youthforce"
-            className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-2 border-r border-primary-foreground/30"
+            className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-3 md:py-4 border-r border-primary-foreground/30"
           >
             <span className="font-bold">LIFE</span> CHOICES ACADEMY & STUDIO
           </a>
           <a
             href="#internship"
-            className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-2 bg-[hsl(222,40%,65%)]"
+            className="text-primary-foreground text-xs md:text-sm uppercase tracking-wider hover:opacity-80 transition-opacity text-center py-3 md:py-4 bg-[hsl(222,40%,65%)]"
           >
             INTERNSHIP PARTNERSHIP PROGRAM
           </a>
