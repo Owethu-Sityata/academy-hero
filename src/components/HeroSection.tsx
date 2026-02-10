@@ -41,7 +41,7 @@ const HeroSection = () => {
           <div className="flex justify-center">
             <div className="bg-primary px-6 py-4 md:px-10 md:py-5 max-w-md md:max-w-lg">
               <p className="text-primary-foreground text-xs md:text-sm font-bold tracking-[0.15em] uppercase leading-relaxed">
-                <span className="underline underline-offset-4 decoration-2">UNLOCKING THE FUTURE:</span>{" "}
+                <span className="">UNLOCKING THE FUTURE:</span>{" "}
                 EMPOWERING YOUNG TALENT FOR THE DIGITAL AGE
               </p>
             </div>
