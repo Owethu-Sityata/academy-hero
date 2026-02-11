@@ -65,15 +65,17 @@ const ContactSection = () => {
             <Button 
               size="lg" 
               className="bg-secondary text-secondary-foreground hover:bg-secondary/90"
+              asChild
             >
-              Partner With Us
+              <a href="tel:0216964157">Partner With Us</a>
             </Button>
             <Button 
               size="lg" 
               variant="outline" 
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-secondary hover:border-secondary transition-colors"
+              asChild
             >
-              Host an Intern
+              <a href="tel:0216964157">Host an Intern</a>
             </Button>
           </div>
           
