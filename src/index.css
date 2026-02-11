@@ -25,7 +25,7 @@
     --primary-foreground: 0 0% 100%;
 
     /* Life Choices Green */
-    --secondary: 78 50% 35%;
+    --secondary: 78 60% 50%;
     --secondary-foreground: 0 0% 100%;
 
     /* Navigation Blue (slightly darker) */
@@ -67,7 +67,7 @@
     --popover-foreground: 210 40% 98%;
     --primary: 222 54% 55%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 78 50% 35%;
+    --secondary: 78 60% 50%;
     --secondary-foreground: 0 0% 100%;
     --accent: 222 50% 48%;
     --accent-foreground: 0 0% 100%;
