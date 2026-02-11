@@ -49,7 +49,7 @@ const HeroSection = () => {
         </div>
 
         {/* Trapezoid logo - positioned so sharp point overlaps the green line */}
-<div className="absolute bottom-[25%] left-0 z-20 w-[65%] max-w-[720px]">
+<div className="absolute bottom-[18%] left-0 z-20 w-[75%] max-w-[820px]">
   <img
     src={trapezoidLogo}
     alt="Life Choices Academy Logo"
@@ -58,8 +58,8 @@ const HeroSection = () => {
 </div>
 
 {/* Welcome text - positioned on white area below the logo */}
-<div className="absolute bottom-16 md:bottom-20 left-6 md:left-12 lg:left-16 max-w-xs md:max-w-sm z-20">
-  <p className="text-foreground text-xs md:text-sm leading-relaxed">
+<div className="absolute bottom-12 md:bottom-16 left-6 md:left-12 lg:left-16 max-w-xs md:max-w-md z-20">
+  <p className="text-foreground text-sm md:text-base leading-relaxed">
     Welcome to Life Choices Academy, we are committed to empowering the youth with the skills, knowledge, and opportunities they need to thrive in the digital era
   </p>
 </div>
