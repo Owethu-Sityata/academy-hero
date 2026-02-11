@@ -1,6 +1,6 @@
 const ImpactSourcingSection = () => {
   return (
-    <section className="py-16 md:py-24 bg-secondary text-secondary-foreground">
+    <section className="py-16 md:py-24 bg-primary text-primary-foreground">
       <div className="container mx-auto px-6 md:px-12 lg:px-16">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
@@ -11,7 +11,7 @@ const ImpactSourcingSection = () => {
           </p>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-secondary-foreground/10 backdrop-blur-sm rounded-lg p-8 border border-secondary-foreground/20">
+            <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-8 border border-primary-foreground/20">
               <h3 className="font-bold text-xl mb-4">LC Studio</h3>
               <p className="opacity-90 mb-4 text-sm">
                 Coding Academy interns gain hands-on experience through live client projects, building real web applications under expert supervision.
@@ -38,7 +38,7 @@ const ImpactSourcingSection = () => {
               </ul>
             </div>
             
-            <div className="bg-secondary-foreground/10 backdrop-blur-sm rounded-lg p-8 border border-secondary-foreground/20">
+            <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-8 border border-primary-foreground/20">
               <h3 className="font-bold text-xl mb-4">YouthForce Partners</h3>
               <p className="opacity-90 mb-4 text-sm">
                 YouthForce participants complete real-world Salesforce projects linked to partners, developing portfolios that demonstrate their Admin and AI Specialist capabilities.
@@ -65,7 +65,7 @@ const ImpactSourcingSection = () => {
               </ul>
             </div>
 
-            <div className="bg-secondary-foreground/10 backdrop-blur-sm rounded-lg p-8 border border-secondary-foreground/20">
+            <div className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-8 border border-primary-foreground/20">
               <h3 className="font-bold text-xl mb-4">Solar Internships</h3>
               <p className="opacity-90 mb-4 text-sm">
                 Solar Youth graduates are placed in 10-month industry internships with host companies, gaining real-world experience on live solar projects.
