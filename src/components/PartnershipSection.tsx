@@ -90,8 +90,8 @@ const PartnershipSection = () => {
                 </div>
                 
                 <div className="mt-8">
-                  <Button className="w-full" size="lg">
-                    Become a Partner
+                  <Button className="w-full" size="lg" asChild>
+                    <a href="tel:0216964157">Become a Partner</a>
                   </Button>
                 </div>
               </div>
