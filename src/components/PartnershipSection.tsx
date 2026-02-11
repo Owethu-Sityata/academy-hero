@@ -91,7 +91,7 @@ const PartnershipSection = () => {
                 
                 <div className="mt-8">
                   <Button className="w-full" size="lg" asChild>
-                    <a href="tel:0216964157">Become a Partner</a>
+                    <a href="mailto:Melanie@lifechoices.co.za?cc=Vuyo@lifechoices.co.za">Become a Partner</a>
                   </Button>
                 </div>
               </div>
