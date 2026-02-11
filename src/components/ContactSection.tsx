@@ -67,7 +67,7 @@ const ContactSection = () => {
               className="bg-secondary text-secondary-foreground hover:bg-secondary/90"
               asChild
             >
-              <a href="tel:0216964157">Partner With Us</a>
+              <a href="mailto:Melanie@lifechoices.co.za?cc=Vuyo@lifechoices.co.za">Partner With Us</a>
             </Button>
             <Button 
               size="lg" 
@@ -75,7 +75,7 @@ const ContactSection = () => {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-secondary hover:border-secondary transition-colors"
               asChild
             >
-              <a href="tel:0216964157">Host an Intern</a>
+              <a href="mailto:Melanie@lifechoices.co.za?cc=Vuyo@lifechoices.co.za">Host an Intern</a>
             </Button>
           </div>
           
