@@ -67,6 +67,7 @@ export default {
           bg: "hsl(220, 14%, 96%)",
           text: "hsl(220, 10%, 40%)",
         },
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
