@@ -61,7 +61,12 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-      },
+        academy: {
+          blue: "hsl(213, 66%, 32%)",
+          green: "hsl(90, 61%, 44%)",
+          bg: "hsl(220, 14%, 96%)",
+          text: "hsl(220, 10%, 40%)",
+        },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
