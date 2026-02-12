@@ -1,4 +1,3 @@
-import CenterCircle from "./CenterCircle";
 import PillarHexagon from "./PillarHexagon";
 import { pillars } from "./pillarData";
 import { useIsMobile } from "@/hooks/use-mobile";
