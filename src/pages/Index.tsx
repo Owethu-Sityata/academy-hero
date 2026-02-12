@@ -5,7 +5,7 @@ import CodingProgramSection from "@/components/CodingProgramSection";
 import YouthForceSection from "@/components/YouthForceSection";
 import SolarYouthSection from "@/components/SolarYouthSection";
 import BeneficiariesSection from "@/components/BeneficiariesSection";
-import WrapAroundSection from "@/components/WrapAroundSection";
+import WrapAroundSection from "@/components/wrap-around/WrapAroundSection";
 import ImpactSourcingSection from "@/components/ImpactSourcingSection";
 import PartnershipSection from "@/components/PartnershipSection";
 import ContactSection from "@/components/ContactSection";
