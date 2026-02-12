@@ -2,6 +2,8 @@ import CenterCircle from "./CenterCircle";
 import PillarHexagon from "./PillarHexagon";
 import { pillars } from "./pillarData";
 import { useIsMobile } from "@/hooks/use-mobile";
+import academyImage from "@/assets/academy-team.jpg";
+import frameMask from "@/assets/frame-mask.png";
 
 const PLUS_POSITIONS = [
   { top: "58%", left: "-6%", size: 18 },
