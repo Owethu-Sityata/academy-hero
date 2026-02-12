@@ -20,6 +20,7 @@ const Index = () => {
       <YouthForceSection />
       <SolarYouthSection />
       <BeneficiariesSection />
+      <div className="w-full h-px bg-border" />
       <WrapAroundSection />
       <ImpactSourcingSection />
       <PartnershipSection />
