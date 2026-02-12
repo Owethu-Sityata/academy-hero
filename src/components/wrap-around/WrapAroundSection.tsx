@@ -2,13 +2,15 @@ import PillarHexagon from "./PillarHexagon";
 import { pillars } from "./pillarData";
 import { useIsMobile } from "@/hooks/use-mobile";
 import academyImage from "@/assets/academy-team.jpg";
-import frameMask from "@/assets/frame-mask.png";
+import centerCircleImg from "@/assets/center-circle.png";
 
 const PLUS_POSITIONS = [
-  { top: "58%", left: "-6%", size: 18 },
-  { top: "45%", left: "8%", size: 14 },
-  { top: "82%", left: "28%", size: 16 },
-  { top: "70%", left: "-2%", size: 12 },
+  { top: "30%", left: "-4%", size: 22 },
+  { top: "50%", left: "6%", size: 16 },
+  { top: "75%", right: "5%", size: 24 },
+  { top: "85%", right: "15%", size: 18 },
+  { top: "90%", right: "25%", size: 14 },
+  { top: "65%", left: "-2%", size: 12 },
 ];
 
 /** Positions for 6 hexagons around center (angle in degrees, radius in px) */
@@ -50,37 +52,47 @@ const WrapAroundSection = () => {
           </div>
 
           {/* Angled image with blue border + green plus signs */}
-          <div className="relative mt-6 w-fit">
+          <div className="relative mt-6 -ml-6 md:-ml-12 lg:-ml-20">
             {/* Green plus decorations */}
             {PLUS_POSITIONS.map((pos, i) => (
               <span
                 key={i}
-                className="absolute text-academy-green font-bold select-none pointer-events-none z-10"
+                className="absolute text-academy-green font-bold select-none pointer-events-none z-20"
                 style={{
                   top: pos.top,
-                  left: pos.left,
+                  left: (pos as any).left,
+                  right: (pos as any).right,
                   fontSize: pos.size,
-                  transform: "rotate(12deg)",
                 }}
               >
-                +
+                ✦
               </span>
             ))}
-            {/* Frame mask with image inside */}
-            <div className="relative w-80 md:w-96 h-72 md:h-80">
-              {/* Image sitting inside, smaller than frame */}
+            {/* Blue angular border frame */}
+            <svg
+              className="absolute inset-0 w-full h-full pointer-events-none z-10"
+              viewBox="0 0 500 400"
+              preserveAspectRatio="none"
+              fill="none"
+            >
+              <path
+                d="M0 60 L140 0 L460 0 L460 400 L0 400 Z"
+                stroke="hsl(213, 66%, 32%)"
+                strokeWidth="8"
+                fill="none"
+                strokeLinejoin="round"
+              />
+            </svg>
+            {/* Image */}
+            <div className="relative w-full aspect-[5/4] overflow-hidden">
               <img
                 src={academyImage}
                 alt="Academy students collaborating"
-                className="absolute object-cover rounded-sm"
-                style={{ top: "18%", left: "10%", width: "75%", height: "70%" }}
+                className="w-full h-full object-cover"
+                style={{
+                  clipPath: "polygon(0% 15%, 28% 0%, 92% 0%, 92% 100%, 0% 100%)",
+                }}
                 loading="lazy"
-              />
-              {/* Frame border overlay – full size, bigger than image */}
-              <img
-                src={frameMask}
-                alt=""
-                className="absolute inset-0 w-full h-full object-contain pointer-events-none z-10"
               />
             </div>
           </div>
@@ -128,7 +140,7 @@ const WrapAroundSection = () => {
 
               {/* Center circle */}
               <div className="absolute" style={{ top: 280 - 56, left: 280 - 56 }}>
-                <CenterCircle />
+                <img src={centerCircleImg} alt="Center circle" className="w-28 h-28 object-contain" />
               </div>
 
               {/* Hexagons */}
