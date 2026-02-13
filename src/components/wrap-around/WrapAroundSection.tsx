@@ -53,7 +53,7 @@ const WrapAroundSection = () => {
 
           {/* Angled image with blue border + green plus signs */}
           <div className="relative mt-6 -ml-6 md:-ml-12 lg:-ml-20 max-w-md">
-            {/* Green plus decorations */}
+            {/* Green star decorations */}
             {PLUS_POSITIONS.map((pos, i) => (
               <span
                 key={i}
@@ -68,29 +68,14 @@ const WrapAroundSection = () => {
                 ✦
               </span>
             ))}
-            {/* Blue angular border frame */}
-            <svg
-              className="absolute inset-0 w-full h-full pointer-events-none z-10"
-              viewBox="0 0 500 350"
-              preserveAspectRatio="none"
-              fill="none"
-            >
-              <path
-                d="M0 50 L120 0 L460 0 L460 350 L0 350 Z"
-                stroke="hsl(213, 66%, 32%)"
-                strokeWidth="8"
-                fill="none"
-                strokeLinejoin="round"
-              />
-            </svg>
-            {/* Image */}
+            {/* Image with 4-sided angular clip */}
             <div className="relative w-full aspect-[4/3] overflow-hidden">
               <img
                 src={academyImage}
                 alt="Academy students collaborating"
                 className="w-full h-full object-cover"
                 style={{
-                  clipPath: "polygon(0% 15%, 24% 0%, 92% 0%, 92% 100%, 0% 100%)",
+                  clipPath: "polygon(0% 15%, 28% 0%, 100% 0%, 100% 100%)",
                 }}
                 loading="lazy"
               />
