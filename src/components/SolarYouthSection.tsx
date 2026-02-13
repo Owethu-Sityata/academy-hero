@@ -1,4 +1,4 @@
-import solarYouthHero from "@/assets/solaryouth-hero.webp";
+import solarYouthHero from "@/assets/solaryouth-hero.png";
 
 const SolarYouthSection = () => {
   return (
