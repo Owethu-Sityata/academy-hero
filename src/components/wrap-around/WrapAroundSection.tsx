@@ -1,7 +1,7 @@
 import PillarHexagon from "./PillarHexagon";
 import { pillars } from "./pillarData";
 import { useIsMobile } from "@/hooks/use-mobile";
-import academyImage from "@/assets/academy-team.jpg";
+import academyImage from "@/assets/academy-team.png";
 import centerCircleImg from "@/assets/center-circle.png";
 
 const PLUS_POSITIONS = [
