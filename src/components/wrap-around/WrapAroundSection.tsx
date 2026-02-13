@@ -73,10 +73,7 @@ const WrapAroundSection = () => {
               <img
                 src={academyImage}
                 alt="Academy students collaborating"
-                className="w-full h-full object-cover"
-                style={{
-                  clipPath: "polygon(0% 15%, 28% 0%, 100% 0%, 100% 100%)",
-                }}
+                className="w-full h-full object-cover rounded"
                 loading="lazy"
               />
             </div>
