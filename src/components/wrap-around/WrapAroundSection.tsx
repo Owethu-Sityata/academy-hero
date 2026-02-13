@@ -52,7 +52,7 @@ const WrapAroundSection = () => {
           </div>
 
           {/* Angled image with blue border + green plus signs */}
-          <div className="relative mt-6 -ml-6 md:-ml-12 lg:-ml-20 max-w-md">
+          <div className="relative mt-6 max-w-md">
             {/* Green star decorations */}
             {PLUS_POSITIONS.map((pos, i) => (
               <span
