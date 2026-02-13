@@ -58,7 +58,7 @@ const PillarHexagon = ({ pillar, style, className = "" }: Props) => {
     <>
       {/* Desktop tooltip */}
       <div className="hidden md:block">
-        <Tooltip>
+        <Tooltip delayDuration={0}>
           <TooltipTrigger asChild>{hexContent}</TooltipTrigger>
           <TooltipContent
             side="top"
