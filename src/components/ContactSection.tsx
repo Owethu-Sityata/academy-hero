@@ -43,7 +43,14 @@ const ContactSection = () => {
                 </svg>
               </div>
               <h3 className="font-bold mb-2">Visit Us</h3>
-              <p className="text-sm opacity-80">Cape Town, South Africa</p>
+              <a 
+                href="https://www.google.com/maps/search/?api=1&query=314+Imam+Haron+Road,+Lansdowne,+Cape+Town,+South+Africa,+7780" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-sm opacity-80 hover:opacity-100 underline underline-offset-2 transition-opacity"
+              >
+                314 Imam Haron Road, Lansdowne, Cape Town, 7780
+              </a>
             </div>
           </div>
 
