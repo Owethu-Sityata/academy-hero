@@ -17,11 +17,11 @@ const BeneficiariesSection = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                 </svg>
               </div>
-              <h3 className="font-bold text-white text-lg mb-3">Coding Academy</h3>
+              <h3 className="font-bold text-white text-lg mb-3">YouthCode Project</h3>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-academy-green rounded-full mt-2 shrink-0" />
-                  <span className="text-white/90 text-sm">Ages 18–35</span>
+                  <span className="text-white/90 text-sm">Ages 18–26</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-academy-green rounded-full mt-2 shrink-0" />
