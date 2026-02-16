@@ -33,7 +33,7 @@ const BeneficiariesSection = () => {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-academy-green rounded-full mt-2 shrink-0" />
-                  <span className="text-white/90 text-sm">Currently unemployed or underemployed</span>
+                  <span className="text-white/90 text-sm">Currently unemployed</span>
                 </li>
               </ul>
             </div>
@@ -61,6 +61,10 @@ const BeneficiariesSection = () => {
                 <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-academy-green rounded-full mt-2 shrink-0" />
                   <span className="text-white/90 text-sm">South African youth from underserved communities</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="w-2 h-2 bg-academy-green rounded-full mt-2 shrink-0" />
+                  <span className="text-white/90 text-sm">Currently unemployed</span>
                 </li>
               </ul>
             </div>
