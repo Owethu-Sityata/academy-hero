@@ -44,7 +44,7 @@ const ContactSection = () => {
               </div>
               <h3 className="font-bold mb-2">Visit Us</h3>
               <a 
-                href="https://www.google.com/maps/search/?api=1&query=314+Imam+Haron+Road,+Lansdowne,+Cape+Town,+South+Africa,+7780" 
+                href="https://www.google.com/maps/place/314+Imam+Haron+Rd,+Lansdowne,+Cape+Town,+7780/@-33.9849963,18.4900874,17z/data=!3m1!4b1!4m6!3m5!1s0x1dcc433bfcf832a1:0x3b4439b8cc517802!8m2!3d-33.9849963!4d18.4926623!16s%2Fg%2F11f10dnf6j?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-sm opacity-80 hover:opacity-100 underline underline-offset-2 transition-opacity"
