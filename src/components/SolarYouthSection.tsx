@@ -128,6 +128,10 @@ const SolarYouthSection = () => {
               <p className="text-2xl font-bold text-primary">138</p>
               <p className="text-sm text-muted-foreground">Youth Over 3 Years</p>
             </div>
+            <div className="bg-muted rounded-lg p-4 text-center">
+              <p className="text-2xl font-bold text-primary">15+</p>
+              <p className="text-sm text-muted-foreground">Partners</p>
+            </div>
           </div>
 
           {/* Beneficiaries */}
