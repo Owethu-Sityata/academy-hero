@@ -116,11 +116,11 @@ const YouthForceSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
             <div className="bg-background rounded-lg p-4 text-center shadow-sm border border-border">
-              <p className="text-2xl font-bold text-primary">20</p>
+              <p className="text-2xl font-bold text-primary">45+</p>
               <p className="text-sm text-muted-foreground">Certified Admins</p>
             </div>
             <div className="bg-background rounded-lg p-4 text-center shadow-sm border border-border">
-              <p className="text-2xl font-bold text-primary">11</p>
+              <p className="text-2xl font-bold text-primary">20+</p>
               <p className="text-sm text-muted-foreground">
                 Agentforce Specialists
               </p>
