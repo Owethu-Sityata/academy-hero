@@ -117,20 +117,16 @@ const SolarYouthSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
             <div className="bg-muted rounded-lg p-4 text-center">
-              <p className="text-2xl font-bold text-primary">23</p>
-              <p className="text-sm text-muted-foreground">Graduates (2024)</p>
+              <p className="text-2xl font-bold text-primary">68+</p>
+              <p className="text-sm text-muted-foreground">Graduates </p>
             </div>
             <div className="bg-muted rounded-lg p-4 text-center">
-              <p className="text-2xl font-bold text-primary">22</p>
+              <p className="text-2xl font-bold text-primary">56+</p>
               <p className="text-sm text-muted-foreground">Placed in Internships</p>
             </div>
             <div className="bg-muted rounded-lg p-4 text-center">
               <p className="text-2xl font-bold text-primary">138</p>
               <p className="text-sm text-muted-foreground">Youth Over 3 Years</p>
-            </div>
-            <div className="bg-muted rounded-lg p-4 text-center">
-              <p className="text-2xl font-bold text-primary">2</p>
-              <p className="text-sm text-muted-foreground">Promoted to Managers</p>
             </div>
           </div>
 
