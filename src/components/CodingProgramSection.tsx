@@ -8,8 +8,7 @@ const CodingProgramSection = () => {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center mb-12">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-                Coding Academy
-              </h2>
+                YouthCode Project             </h2>
               <p className="text-muted-foreground mb-6">
                 A 12-month journey to becoming a professional full-stack developer
               </p>
