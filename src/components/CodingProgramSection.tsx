@@ -1,4 +1,5 @@
 import codingHero from "@/assets/coding-academy-hero.jpg";
+import CountUp from "@/components/CountUp";
 
 const CodingProgramSection = () => {
   return (
@@ -57,15 +58,15 @@ const CodingProgramSection = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
             <div className="bg-muted rounded-lg p-4 text-center">
-              <p className="text-2xl font-bold text-primary">100+</p>
+              <p className="text-2xl font-bold text-primary"><CountUp end={100} suffix="+" /></p>
               <p className="text-sm text-muted-foreground">Projects Completed</p>
             </div>
             <div className="bg-muted rounded-lg p-4 text-center">
-              <p className="text-2xl font-bold text-primary">85%</p>
+              <p className="text-2xl font-bold text-primary"><CountUp end={85} suffix="%" /></p>
               <p className="text-sm text-muted-foreground">Employment Rate</p>
             </div>
             <div className="bg-muted rounded-lg p-4 text-center">
-              <p className="text-2xl font-bold text-primary">12</p>
+              <p className="text-2xl font-bold text-primary"><CountUp end={12} /></p>
               <p className="text-sm text-muted-foreground">Month Program</p>
             </div>
             <div className="bg-muted rounded-lg p-4 text-center">

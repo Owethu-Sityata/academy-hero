@@ -1,4 +1,5 @@
 import solarYouthHero from "@/assets/solaryouth-hero.png";
+import CountUp from "@/components/CountUp";
 
 const SolarYouthSection = () => {
   return (
@@ -138,19 +139,19 @@ const SolarYouthSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
             <div className="bg-muted rounded-lg p-4 text-center">
-              <p className="text-2xl font-bold text-primary">68+</p>
+              <p className="text-2xl font-bold text-primary"><CountUp end={68} suffix="+" /></p>
               <p className="text-sm text-muted-foreground">Graduates </p>
             </div>
             <div className="bg-muted rounded-lg p-4 text-center">
-              <p className="text-2xl font-bold text-primary">56+</p>
+              <p className="text-2xl font-bold text-primary"><CountUp end={56} suffix="+" /></p>
               <p className="text-sm text-muted-foreground">Placed in Internships</p>
             </div>
             <div className="bg-muted rounded-lg p-4 text-center">
-              <p className="text-2xl font-bold text-primary">138</p>
+              <p className="text-2xl font-bold text-primary"><CountUp end={138} /></p>
               <p className="text-sm text-muted-foreground">Youth Over 3 Years</p>
             </div>
             <div className="bg-muted rounded-lg p-4 text-center">
-              <p className="text-2xl font-bold text-primary">15+</p>
+              <p className="text-2xl font-bold text-primary"><CountUp end={15} suffix="+" /></p>
               <p className="text-sm text-muted-foreground">Partners</p>
             </div>
           </div>
