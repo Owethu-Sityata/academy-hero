@@ -32,7 +32,7 @@ const WrapAroundSection = () => {
         {/* LEFT COLUMN */}
         <div className="flex flex-col gap-6">
           {/* Heading */}
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold uppercase tracking-tight leading-tight whitespace-nowrap">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold uppercase tracking-tight leading-tight">
             <span className="text-foreground">OUR </span>
             <span className="text-academy-blue">WRAP-AROUND APPROACH</span>
           </h2>
